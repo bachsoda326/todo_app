@@ -15,7 +15,7 @@ class AddTodo extends TodosEvent {
   const AddTodo(this.task, this.note);
 
   @override
-  List<Object> get props => null;
+  List<Object> get props => [task, note];
 }
 
 class UpdateTodo extends TodosEvent {

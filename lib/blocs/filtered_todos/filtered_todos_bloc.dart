@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:todostream/blocs/filtered_todos/filtered_todos.dart';
+import 'package:todostream/blocs/blocs.dart';
 import 'package:todostream/models/models.dart';
 
 import '../blocs.dart';

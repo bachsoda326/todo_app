@@ -17,6 +17,7 @@ class TodoItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
+      key: Key(todo.id),
       onTap: onTap,
       leading: Checkbox(
         value: todo.complete,

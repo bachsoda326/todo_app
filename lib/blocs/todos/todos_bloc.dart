@@ -1,19 +1,19 @@
 import 'dart:async';
 
 import 'package:rxdart/rxdart.dart';
-import 'package:todostream/blocs/todos/todos.dart';
+import 'package:todostream/blocs/blocs.dart';
 import 'package:todostream/models/models.dart';
 
 class TodosBloc {
   //example
   static Todo todo = Todo(
-    task: "event.task",
-    note: "event.note",
+    task: "task 1",
+    note: "note 1",
     complete: false,
   );
   static Todo todo1 = Todo(
-    task: "event.task1",
-    note: "event.note1",
+    task: "task 2",
+    note: "note 2",
     complete: true,
   );
   List<Todo> todos = [todo, todo1];
